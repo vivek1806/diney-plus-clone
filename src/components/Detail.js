@@ -2,30 +2,32 @@ import React from 'react'
 import styled from 'styled-components'
 
 
+
+
 function Detail() {
     return (
         <Container>
             <Background>
-                <img src= "/images/Avengers2012.jpg"/>
+                <img src= "/images/Avengers2012.jpg"  alt=""/>
             </Background>
             <ImageTitle>
                     <h4>The Avengers</h4>
             </ImageTitle>
             <Controls>
             <PlayButton>
-                <img src = "/images/play-icon-black.png" />
+                <img src = "/images/play-icon-black.png"  alt="" />
                 <span>Play</span>
                 
             </PlayButton>
             <TrailerButton>
-            <img src = "/images/play-icon-white.png" />
+            <img src = "/images/play-icon-white.png"  alt=""/>
                 <span>Trailer</span>
             </TrailerButton>
             <AddButton>
              <span>+</span>
             </AddButton>
             <GroupWatchButton>
-            <img src= "/images/group-icon.png"/>
+            <img src= "/images/group-icon.png"  alt=""/>
             </GroupWatchButton>
 
             </Controls>
